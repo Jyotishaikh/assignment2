@@ -41,7 +41,7 @@ body{
 }
 
 
-/* header styles */
+/* ........header styles......... */
 
 /* navbar styles */
 
@@ -87,13 +87,17 @@ body{
 
 /* responsive media query */
 @media screen and (max-width: 576px){
+
+  /* header section */
     .nav-links{
         display: none;
     }
     .banner{
         flex-direction: column;
-        
         align-items: center;
+    }
+    .banner-title{
+      font-size: 2rem;
     }
     .banner-image{
      width: 100%; 
